@@ -1,0 +1,46 @@
+simple interest:public class SimpleInterest {
+static int s;
+static int t;
+static void si(int p,int n,int r){
+s = p*n*r/100;
+t=p+n*s;
+System.out.println("total amount to be paid:"+t);
+
+
+
+
+}
+
+}
+Tester class:
+public class simpletester {
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+SimpleInterest.si(3000,2,2);
+
+}
+
+}
+School Records:
+public class SchoolRecords {
+void ddRecords(String a,int b,String c) {
+System.out.println("All the details are added.");
+
+}
+void dispRecords(String a,int b,String c) {
+System.out.println("School name: " +a+ "School id: " +b+ "School Address: " +c);
+}}
+Tester class:
+public class recordtester {
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+SchoolRecords msg= new SchoolRecords();
+msg.ddRecords("Panimalar",23,"Poonamalee");
+msg.dispRecords("Panimalar",23,"Poonamalee");
+
+
+}
+
+}
